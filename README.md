@@ -14,8 +14,6 @@ Currently, this repository includes the following mini projects:
 
 3. **[Table Filter](https://github.com/Charly7017/MiniProjects/tree/main/Filter%20in%20table)** 🔍  
    - A table filtering tool created without external libraries.  
-     - Input text to filter rows based on table content.
-     - Press Enter (`Enter`) to apply the filter.
 
 ## 📜 Purpose
 
