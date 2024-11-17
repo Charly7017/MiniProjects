@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Title */
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-container select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #dfffa7;
+    color: #333;
+}
+
+.input-container .addBtn {
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #dfffa7;
+    color: #333;
+    cursor: pointer;
+}
+
+.input-container .addBtn:hover {
+    background-color: #c4e689;
+}
+
+/* Task */
+.task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.task input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+}
+
+.task .complete-btn,
+.task .delete-btn {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task .complete-btn {
+    background-color: #5af7a6;
+    color: #333;
+}
+
+.task .delete-btn {
+    background-color: #dfffa7;
+    color: #333;
+}
+
+.task .complete-btn:hover {
+    background-color: #4ed394;
+}
+
+.task .delete-btn:hover {
+    background-color: #c4e689;
+}
+
+
+.checked{
+    text-decoration: line-through;
+}
