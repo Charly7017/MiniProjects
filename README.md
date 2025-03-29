@@ -13,7 +13,10 @@ Currently, this repository includes the following mini projects:
    - A simple but functional to-do list app for managing tasks.
 
 3. **[Table Filter](https://github.com/Charly7017/MiniProjects/tree/main/Filter%20in%20table)** 🔍  
-   - A table filtering tool created without external libraries.  
+   - A table filtering tool created without external libraries.
+
+4. **[Weather Now](https://github.com/Charly7017/MiniProjects/tree/main/WeatherNow)** ☀️🌦️  
+   - A weather app that fetches real-time weather data using the OpenWeatherMap API. Great for practicing API calls and error handling.
 
 ## 📜 Purpose
 
@@ -25,6 +28,7 @@ The mini projects in this repository are built using technologies such as:
 
 - HTML, CSS, and JavaScript
 - Bootstrap 5 (used in some projects for styling)
+- OpenWeatherMap API (used in Weather Now)
 
 ## 🛠️ How to Run
 
