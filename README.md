@@ -18,6 +18,9 @@ Currently, this repository includes the following mini projects:
 4. **[Weather Now](https://github.com/Charly7017/MiniProjects/tree/main/WeatherNow)** ☀️🌦️  
    - A weather app that fetches real-time weather data using the OpenWeatherMap API. Great for practicing API calls and error handling.
 
+5. **[Vending Machine](https://github.com/Charly7017/MiniProjects/tree/main/VendingMachine)** 🥤🍫  
+   - A simple vending machine simulator where users can select and buy products. Features balance tracking, stock validation, and interactive alerts using SweetAlert2.
+
 ## 📜 Purpose
 
 This repository reflects my journey as a developer, showcasing my passion for problem-solving and my interest in exploring new technologies. It is a space for creativity and continuous learning. 🧑‍💻✨
@@ -28,6 +31,7 @@ The mini projects in this repository are built using technologies such as:
 
 - HTML, CSS, and JavaScript
 - Bootstrap 5 (used in some projects for styling)
+- SweetAlert2 (used in the vending machine)
 - OpenWeatherMap API (used in Weather Now)
 
 ## 🛠️ How to Run
