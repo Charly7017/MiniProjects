@@ -25,14 +25,18 @@ Currently, this repository includes the following mini projects:
 
 This repository reflects my journey as a developer, showcasing my passion for problem-solving and my interest in exploring new technologies. It is a space for creativity and continuous learning. 🧑‍💻✨
 
-## 🌐 Technologies Used
+## 🌐 Technologies and Libraries Used
 
-The mini projects in this repository are built using technologies such as:
+The mini projects in this repository were developed using the following technologies and tools:
 
-- HTML, CSS, and JavaScript
-- Bootstrap 5 (used in some projects for styling)
-- SweetAlert2 (used in the vending machine)
-- OpenWeatherMap API (used in Weather Now)
+### 🧱 Core Technologies
+- **HTML**, **CSS**, and **JavaScript** – Fundamental technologies for building user interfaces and implementing logic.
+- **Bootstrap 5** – Utilized in some projects for responsive design and pre-built styling components.
+
+### 📦 Libraries and APIs
+- **SweetAlert2** – Used in some projects to display customized alerts.
+- **OpenWeatherMap API** – Integrated into the *Weather Now* project to retrieve real-time weather data.
+
 
 ## 🛠️ How to Run
 
