@@ -23,6 +23,10 @@ Currently, this repository includes the following mini projects:
      
 6. **[Quiz Game](https://github.com/Charly7017/MiniProjects/tree/main/QuizGame)** 🧠🎯  
    - A fun and interactive quiz game to test your knowledge with multiple-choice questions. With a countdown start and feedback at the end.
+
+7. **[Color Palette Generator](https://github.com/Charly7017/MiniProjects/tree/main/ColorPaletterGenerator)** 🧠🎯
+    - Simple color palette generator. 
+
 ## 📜 Purpose
 
 This repository reflects my journey as a developer, showcasing my passion for problem-solving and my interest in exploring new technologies. It is a space for creativity and continuous learning. 🧑‍💻✨
