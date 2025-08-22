@@ -24,8 +24,11 @@ Currently, this repository includes the following mini projects:
 6. **[Quiz Game](https://github.com/Charly7017/MiniProjects/tree/main/QuizGame)** 🧠🎯  
    - A fun and interactive quiz game to test your knowledge with multiple-choice questions. With a countdown start and feedback at the end.
 
-7. **[Color Palette Generator](https://github.com/Charly7017/MiniProjects/tree/main/ColorPaletterGenerator)** 🧠🎯
-    - Simple color palette generator. 
+7. **[Color Palette Generator](https://github.com/Charly7017/MiniProjects/tree/main/ColorPaletterGenerator)** 🎨  
+   - Simple color palette generator.
+
+8. **[Kanban To-Do](https://github.com/Charly7017/MiniProjects/tree/main/Drag%20and%20Drop)** 🗂️✅  
+   - A **Kanban-style task manager** with drag & drop, edit, delete, and persistence using `sessionStorage`. Includes duplicate task prevention and Bootstrap modals for better UX.
 
 ## 📜 Purpose
 
