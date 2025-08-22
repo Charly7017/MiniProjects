@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body >
+
+
+    <div class="kanban">
+        <h1 class="kanban__title">Kanban Board</h1>
+        <div class="kanban__container">
+            <div id="div1" class="kanban__column kanban__column--todo">
+                <i class="bi bi-file-plus kanban__column--btnIcon"></i>
+                <h2 class="kanban__column-title">To do</h2>
+                <ul class="kanban__task-list kanban__task-list--todo">      
+                </ul>
+            </div>
+            
+            <div id="div2" class="kanban__column kanban__column--in-progress">
+                <h2 class="kanban__column-title">In Progress</h2>
+                <ul class="kanban__task-list kanban__task-list--in-progress">
+                </ul>
+            </div>
+
+            <div id="div3" class="kanban__column kanban__column--done">
+                <h2 class="kanban__column-title">Done</h2>
+                <ul class="kanban__task-list kanban__task-list--done">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Modal: ADD -->
+    <div class="modal fade" id="modalAddTask" tabindex="-1" aria-labelledby="modalAddTaskLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalAddTaskLabel">Add a Task</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control add-task-input" placeholder="Wash the dishes">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary add-task-cancel" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary add-task-btn">Add</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal: EDIT -->
+    <div class="modal fade" id="modalEditTask" tabindex="-1" aria-labelledby="modalEditTaskLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="modalEditTaskLabel">Edit the Task</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control edit-task-input" placeholder="Update your task">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary edit-task-cancel" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary edit-task-btn">Save</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

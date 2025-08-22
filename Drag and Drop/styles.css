@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.kanban {
+  text-align: center;
+  width: 100%;
+  padding: 1.2rem;
+}
+
+.kanban__title{
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.kanban__container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+
+.kanban__column{
+    border-radius: 8px;
+    background-color: lightgray;
+    padding: 1rem;
+    width: 40%;
+    min-height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kanban__column:first-of-type {
+    position: relative;
+}
+
+.kanban__column--btnIcon{
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 10px;
+}
+
+.kanban__column-title{
+    color: #555;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.kanban__task{
+    position: relative;
+    background-color: white;
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: grab;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.kanban__task .bi-trash{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+
+.kanban__task .bi-file-plus{
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+.kanban__task-list{
+    text-align: start;
+    list-style-type: none;
+}
+
+@media (max-width : 768px){
+    .kanban__container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kanban__column{
+        width: 100%;
+    }
+}
