@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Expense tracker</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="expense">
+    <h1 class="expense__title">Expense Tracker</h1>
+
+    <section class="balance">
+      <h2 class="balance__title">Your balance</h2>
+      <p class="balance__amount" id="balanceAmount">$0.00</p>
+
+      <div class="stats">
+        <div class="stats__item stats__item--income">
+          <h3 class="stats__label">Income</h3>
+          <p class="stats__value stats__value--income" id="incomeAmount">$0.00</p>
+        </div>
+        <div class="stats__item stats__item--expense">
+          <h3 class="stats__label">Expenses</h3>
+          <p class="stats__value stats__value--expense" id="expenseAmount">$0.00</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="transaction-list">
+        <h3 class="transaction-list__title">Transactions</h3>
+        <ul class="transaction-list__items" id="transactionList">
+          
+        </ul>
+      </div>
+
+      <div class="transaction-form">
+        <h3 class="transaction-form__title">Add Transaction</h3>
+
+        <form class="transaction-form__form" id="transactionForm">
+          <div class="transaction-form__field">
+            <label for="tfDescription" class="transaction-form__label">Description</label>
+            <input
+              type="text"
+              id="tfDescription"
+              class="transaction-form__input"
+              placeholder="Enter description..."
+            />
+          </div>
+
+          <div class="transaction-form__field">
+            <label for="tfAmount" class="transaction-form__label">Amount</label>
+            <input
+              type="number"
+              id="tfAmount"
+              class="transaction-form__input"
+              placeholder="Enter amount..."
+              step="0.01"
+              
+            />
+            <small class="transaction-form__hint">Use negative (-) for expenses</small>
+          </div>
+
+          <button type="submit" class="transaction-form__submit">Add Transaction</button>
+
+        </form>
+      </div>
+    </section>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
