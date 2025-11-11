@@ -29,7 +29,9 @@ Currently, this repository includes the following mini projects:
 
 8. **[Kanban To-Do](https://github.com/Charly7017/MiniProjects/tree/main/Drag%20and%20Drop)** 🗂️✅  
    - A **Kanban-style task manager** with drag & drop, edit, delete, and persistence using `sessionStorage`. Includes duplicate task prevention and Bootstrap modals for better UX.
-
+9. **[Expense Tracker](https://github.com/Charly7017/MiniProjects/tree/main/ExpenseTracker)** 💰📊  
+   - A **personal finance tracker** that allows you to manage your income and expenses with real-time balance updates.  
+   
 ## 📜 Purpose
 
 This repository reflects my journey as a developer, showcasing my passion for problem-solving and my interest in exploring new technologies. It is a space for creativity and continuous learning. 🧑‍💻✨
