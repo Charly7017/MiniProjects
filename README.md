@@ -16,7 +16,7 @@ Currently, this repository includes the following mini projects:
    - A table filtering tool created without external libraries.
 
 4. **[Weather Now](https://github.com/Charly7017/MiniProjects/tree/main/WeatherNow)** ☀️🌦️  
-   - A weather app that fetches real-time weather data using the OpenWeatherMap API. Great for practicing API calls and error handling.
+   - A weather app that fetches real-time weather data using the OpenWeatherMap API.
 
 5. **[Vending Machine](https://github.com/Charly7017/MiniProjects/tree/main/Vending%20Machine)** 🥤🍫  
    - A simple vending machine simulator where users can select and buy products.
@@ -28,9 +28,13 @@ Currently, this repository includes the following mini projects:
    - Simple color palette generator.
 
 8. **[Kanban To-Do](https://github.com/Charly7017/MiniProjects/tree/main/Drag%20and%20Drop)** 🗂️✅  
-   - A **Kanban-style task manager** with drag & drop, edit, delete, and persistence using `sessionStorage`. Includes duplicate task prevention and Bootstrap modals for better UX.
+   - A **Kanban-style task manager** with drag & drop, edit, delete, and persistence using `sessionStorage`.
+
 9. **[Expense Tracker](https://github.com/Charly7017/MiniProjects/tree/main/ExpenseTracker)** 💰📊  
-   - A **personal finance tracker** that allows you to manage your income and expenses with real-time balance updates.  
+   - A **personal finance tracker** that allows you to manage your income and expenses with real-time balance updates.
+   
+10. **[Bookmark Saver](https://github.com/Charly7017/MiniProjects/tree/main/BookmarkSaver)** 🔖💾  
+    - A lightweight tool to save, list, and delete bookmarks.
    
 ## 📜 Purpose
 
