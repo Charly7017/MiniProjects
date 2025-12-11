@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f9f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.bookmark-saver{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.bookmark-saver__add{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.bookmark-saver__title{
+    color: green;
+}
+
+.bookmark-saver__inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bookmark-saver__input{
+    padding: 0.4rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bookmark-saver__add-btn{
+    background-color: rgb(91, 198, 91);
+    color: #ffff;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bookmark-saver__list{
+    padding: 1rem;
+}
+
+.bookmark-saver__items{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.bookmark-saver__item{
+    padding: 0.8rem;
+    background-color: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bookmark-saver__link{
+    color: rgb(125, 234, 125);
+    text-decoration: none;
+}
+
+.bookmark-saver__remove-btn{
+    cursor: pointer;
+    background-color: red;
+    color: #ffff;
+    border: none;
+    padding: 0.2rem 0.4em;
+}

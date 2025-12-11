@@ -120,7 +120,6 @@ addBtn.addEventListener("click", function () {
 
         inputTask.value = ""
         localStorage.setItem("tasks",JSON.stringify(arrTasks))
-        console.log(arrTasks)
     }
 })
 
