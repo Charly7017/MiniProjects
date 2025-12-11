@@ -33,7 +33,7 @@ Currently, this repository includes the following mini projects:
 9. **[Expense Tracker](https://github.com/Charly7017/MiniProjects/tree/main/ExpenseTracker)** 💰📊  
    - A **personal finance tracker** that allows you to manage your income and expenses with real-time balance updates.
    
-10. **[Bookmark Saver](https://github.com/Charly7017/MiniProjects/tree/main/BookmarkSaver)** 🔖💾  
+10. **[Bookmark Saver](https://github.com/Charly7017/MiniProjects/tree/main/Bookmark%20Saver)** 🔖💾  
     - A lightweight tool to save, list, and delete bookmarks.
    
 ## 📜 Purpose
