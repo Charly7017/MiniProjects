@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="register">
+        <h1 class="register__title">Register</h1>
+
+        <form class="register__form" id="registrationForm">
+
+            <div class="register__field">
+                <label class="register__label" for="userNameInput">Username</label>
+                <input
+                    class="register__input"
+                    type="text"
+                    id="userNameInput"
+                    maxlength="20"
+                    placeholder="Enter username"
+                >
+                <small class="register__error" id="userNameError"></small>
+            </div>
+
+            <div class="register__field">
+                <label class="register__label" for="emailInput">Email</label>
+                <input
+                    class="register__input"
+                    type="email"
+                    id="emailInput"
+                    maxlength="50"
+                    placeholder="Enter email"
+                >
+                <small class="register__error" id="emailError"></small>
+            </div>
+
+            <div class="register__field">
+                <label class="register__label" for="passwordInput">Password</label>
+                <input
+                    class="register__input"
+                    type="password"
+                    id="passwordInput"
+                    maxlength="20"
+                    placeholder="Enter password"
+                >
+                <small class="register__error" id="passwordError"></small>
+            </div>
+
+            <div class="register__field">
+                <label class="register__label" for="confirmPasswordInput">Confirm Password</label>
+                <input
+                    class="register__input"
+                    type="password"
+                    id="confirmPasswordInput"
+                    maxlength="20"
+                    placeholder="Confirm password"
+                >
+                <small class="register__error" id="confirmPasswordError"></small>
+            </div>
+
+            <button class="register__button" type="button">
+                Register
+            </button>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
